@@ -1,0 +1,15 @@
+package classbook.six;
+/**
+ * @（3）
+ * @author :qjh
+ * @deccription:继承与类
+ * @Date：2019-10-24
+ */
+
+public class DefaultValue {
+    final public static String DICTIONARY_SKU = "D001";
+
+    final public static String content() {
+        return "INB";
+    }
+}
