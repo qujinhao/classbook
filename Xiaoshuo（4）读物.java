@@ -1,5 +1,9 @@
 package bookmanage1;
-
+/**
+*Description:课本习题6.三.1
+*Author:qjh
+*Date:2019-10-30
+*/
 public class Xiaoshuo1 extends Book1 {
     private String XAuthor;
     private int topiao;
