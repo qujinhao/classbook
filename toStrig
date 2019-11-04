@@ -1,0 +1,34 @@
+package user;
+
+/**
+ * Descriptin:toString用法
+ * Author: qjh
+ * Date：2019.11.4
+ */
+public class User {
+    public String username;
+    public String userpassword;
+    public User(String username,String userpassword ){
+        this.username = username;
+        this.userpassword = userpassword ;
+    }
+
+    public String getUserpassword() {
+        return userpassword;
+    }
+
+    public void setUserpassword(String userpassword) {
+        this.userpassword = userpassword;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+    public String toString(){
+        return "密码："+userpassword+  "用户名："+username+ "欢迎你！" ;
+    }
+}
